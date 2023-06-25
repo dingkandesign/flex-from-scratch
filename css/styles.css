@@ -11,20 +11,21 @@ body {
 }
 
 .nav, .header, .footer {
-    background-color: rgb(30, 37, 64);
+    background-color: #1f2937;
     color: white;
-    padding: 0 200px;
+    padding: 0 14%;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 16px 216px;
+    padding: 16px 15%;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
+    color: #f9faf8;
 }
 
 .nav-links ul {
@@ -33,7 +34,8 @@ body {
 }
 
 a {
-    color: rgb(212, 210, 210);
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .header {
@@ -49,8 +51,10 @@ a {
 }
 
 .hero-text h1 {
-    font-size: 64px;
+    font-size: 48px;
+    font-weight: 900;
     line-height: 55px;
+    color: #f9faf8;
 }
 
 .hero-text p {
@@ -60,7 +64,7 @@ a {
 
 .hero-text button {
     padding: 12px 32px;
-    background-color: rgb(32, 137, 228);
+    background-color: #3882f6;;
     border-radius: 5px;
     color: white;
     font-weight: bold;
@@ -77,27 +81,33 @@ a {
 }
 
 .icon-section {
-    padding: 50px 218px;
+    padding: 50px 300px;
 }
 
 .icon-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
     text-align: center;
     margin-bottom: 40px;
 }
 
 .icon-wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 10px;
 }
 
 .flex-item {
-    flex: 1;
+    flex: 1 1 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .icon {
+    flex: 1 1 150px;
     width: 150px;
-    height: 150px;
     border: 3px solid rgb(32, 137, 228);
     border-radius: 15px;
     margin-bottom: 10px;
@@ -107,4 +117,66 @@ a {
     color: rgb(120, 120, 120);
     text-align: center;
     width: 150px;
+}
+
+.quote-wrap {
+    padding: 100px 22%;
+    background-color: #e5e7eb;
+}
+
+.quote-wrap h3 {
+    font-size: 36px;
+    font-style: italic;
+    line-height: 44px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote-wrap p {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 60px;
+}
+
+.call-to-action-wrap {
+    padding: 100px 14%;
+    color: white;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-info h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.cta-info p {
+    color: rgb(212, 210, 210)
+}
+
+.call-to-action button {
+    color: white;
+    padding: 0 32px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    appearance: none;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: rgb(212, 210, 210)
 }
